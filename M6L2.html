@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM ELEMENT</title>
+</head>
+<body>
+
+	<h2> Finding HTML Elements by Id </h2>
+	<p id= "intro">Hello Widia!</p>
+	<p> THis example demonstrates the <b> getElementsById </b> method. </p>
+	<p id= "demo"></p>
+	<script>
+		var myElement = document.getElementsById("intro");
+		document.getElementsById("demo").innerHTML = "The text from the intro paragraph is " + myElement.innerHTML;
+	</script>
+</body>
+</html>
